@@ -33,7 +33,7 @@ Sunway.getcredit(Username='xxx', Password='xxx')
 Sunway.messagestatus(UserName='xxx', Password='xxx', MessageID='xxxxxxxxx')
 ```
 
-# دریافت مشخصات کاربر از سامانه مانند موجودی حساب، تعداد پیام های ارسالی و دریافتی و موارد دیگر
+#دریافت اطلاعات کاربر از سامانه مانند موجودی حساب، پیام های ارسال شده و دریافت شده و موارد دیگر.
 ```python
 Sunway.GetUserInfo(Username= username, Password= password)
 ```
