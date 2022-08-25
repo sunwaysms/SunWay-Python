@@ -28,6 +28,10 @@ class Sunway:
     def getcredit(Username, Password):
          print(client.service.GetCredit(Username, Password))
 
+
+    def GetUserInfo(Username, Password):
+        print(client.service.GetUserInfo(Username, Password))
+        
     #Scheduled sending of SMS for the number:
     def sendarrayschedule(UserName, Password, RecipientNumber, MessageBody, SpecialNumber, Year, Month, Day, Hour, Minute):
         RecipientNumber1 = array_of_string_type([RecipientNumber])

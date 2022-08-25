@@ -25,6 +25,9 @@ Sunway.getcredit(Username='xxx', Password='xxx')
 #دریافت وضعیت پیام های ارسال شده 
 Sunway.messagestatus(UserName='xxx', Password='xxx', MessageID='xxxxxxxxx')
 
+# دریافت مشخصات کاربر از سامانه مانند موجودی حساب، تعداد پیام های ارسالی و دریافتی و موارد دیگر
+Sunway.GetUserInfo(Username= username, Password= password)
+
 #ارسال یک پیام به چندین شماره به صورت همزمان
 Sunway.multisendarray(UserName= 'xxx', Password= 'xxx', RecipientNumber= ['xxxxxx','xxxxxx'], MessageBody= '', SpecialNumber= 'xxx')
 
