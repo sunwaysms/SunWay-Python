@@ -12,31 +12,45 @@ pip install sunwaysms
 
 ## طریقه استفاده از دستور العمل ها در پروژه شما
 
-```python
+
 #فراخوانی پکیج سان وی در هر جای پروژه که نیاز دارید 
+```python
 from sunwaysms import Sunway
+```
 
 #ارسال پیام کوتاه به یک شماره خاص
+```python
 Sunway.sendarray(UserName= 'xxx', Password= 'xxx', RecipientNumber= '09xxxxxxxxx', MessageBody= '', SpecialNumber= 'xxx')
+```
 
 #دریافت موجودی اعتبار کاربر در پنل سان وی
+```python
 Sunway.getcredit(Username='xxx', Password='xxx')
+```
 
 #دریافت وضعیت پیام های ارسال شده 
+```python
 Sunway.messagestatus(UserName='xxx', Password='xxx', MessageID='xxxxxxxxx')
+```
 
 # دریافت مشخصات کاربر از سامانه مانند موجودی حساب، تعداد پیام های ارسالی و دریافتی و موارد دیگر
+```python
 Sunway.GetUserInfo(Username= username, Password= password)
+```
 
 #ارسال یک پیام به چندین شماره به صورت همزمان
+```python
 Sunway.multisendarray(UserName= 'xxx', Password= 'xxx', RecipientNumber= ['xxxxxx','xxxxxx'], MessageBody= '', SpecialNumber= 'xxx')
+```
 
 #ارسال پیامک در زمان خاص
+```python
 Sunway.sendarrayschedule(UserName= 'xxx', Password= 'xxx', RecipientNumber= '09xxxxxxxxx', MessageBody= '', SpecialNumber= 'xxx', Year= 'xxx', Month= 'xxx', Day= 'xxx', Hour= 'xxx', Minute= 'xxx')
+```
 
 #
 
-```
+
 
 
 ## license
